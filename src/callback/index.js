@@ -1,9 +1,9 @@
 //EJERCICIO 1
-//Función base (callback)
+//Función base (se enviará como callback)
 function sum(n1, n2) {
     return n1 + n2;
 }
-//Función en donde se hará el llamado a otra usando callback 
+//High-order function : función de orden superior en donde se hará el llamado a la otra usando callback 
 function calc (n1, n2, callback) {
     return callback(n1, n2);
 }
@@ -11,7 +11,7 @@ function calc (n1, n2, callback) {
 console.log(calc(2, 2, sum));
 
 //EJERCICIO 2
-//Función en donde se llama al callbak
+////High-order function
 function date(callback) {
     console.log(new Date);
     setTimeout(function () {
