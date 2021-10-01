@@ -7,7 +7,9 @@
     "callback": "node src/callback/index.js",
     "callback:api": "node src/callback/callback_api.js",  
     "promise": "node src/promise/index.js",
-    "promise:api": "node src/promise/promise_api.js"
+    "promise:api": "node src/promise/promise_api.js",
+    "async": "node src/async/index.js",
+    "async:api": "node src/async/async_api.js"
   },
   "keywords": [
     "callback",
